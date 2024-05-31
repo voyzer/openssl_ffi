@@ -1,0 +1,11 @@
+libdir=/workplace/openssl/release/lib64
+includedir=/workplace/openssl/release/include
+enginesdir=/workplace/openssl/release/lib64/engines-3
+modulesdir=/workplace/openssl/release/lib64/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.4.0-dev
+Libs: -L${libdir} -lcrypto
+Libs.private: -ldl -pthread
+Cflags: -I${includedir}

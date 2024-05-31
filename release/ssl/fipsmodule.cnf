@@ -1,0 +1,7 @@
+[fips_sect]
+activate = 1
+conditional-errors = 1
+security-checks = 1
+tls1-prf-ems-check = 1
+drbg-no-trunc-md = 1
+module-mac = F6:E8:4D:21:53:BC:E6:77:66:27:75:AA:8E:24:F4:CC:5F:06:CD:2D:5C:F1:9B:0A:25:5C:FD:0B:55:0A:47:18

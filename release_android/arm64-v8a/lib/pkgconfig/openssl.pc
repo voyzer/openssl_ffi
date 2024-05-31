@@ -1,0 +1,7 @@
+libdir=/workplace/openssl/release_android/arm64-v8a/lib
+includedir=/workplace/openssl/release_android/arm64-v8a/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.4.0-dev
+Requires: libssl libcrypto
